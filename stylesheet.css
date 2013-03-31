@@ -1,0 +1,133 @@
+body {
+    background: #222 url('../bodybg.jpg');
+    font-family: Calibri;
+    color: #AAA;
+}
+a {
+    text-decoration: none;
+    color: #FFA500;  
+}
+a:hover {
+    border-bottom: 1px solid #FFF;
+}
+#wrapheader {
+    background: #000 url(http://www.lastwow.com/forum/styles/starcraft%203.0.6/theme/images/banner.jpg) no-repeat;
+    background-position: right;
+        border-top-left-radius: 4em;
+}
+#logodesc {
+    height: 200px;
+    color: #fff;
+    font-weight: bold;
+        border-top-left-radius: 4em;
+        border-top-right-radius: 0px;
+    padding: 0 0 0 25px;
+    box-shadow: 0px 0px 100px 1px #000;
+    cursor: default;
+}
+.sub_title {
+    color: purple;
+    position: absolute;
+    margin-top: -60px;
+    padding: 20px;
+}
+#menubar {
+    color: #AAA;
+    background: rgba(34, 34, 34, .3);
+}
+td.genmed {
+    cursor: default;
+}
+#menubar a{
+    text-decoration: none;
+    color: #FFA500;
+    font-size: 1.1em;
+        padding-left: 20px; padding-right: 20px;
+/*        -o-transition: background 1s; */
+        -moz-transition: background 1s;
+        -webkit-transition: background 1s;
+}
+#menubar a:hover {
+    background: rgba(255, 255, 255, .2);
+        -o-transition: background 1s;
+        -moz-transition: background 1s;
+        -webkit-transition: background 1s;
+}
+.genmed {
+    color: yellow !important;
+}
+#datebar {
+    background: #000;
+}
+.gensmall {
+    color: #888;
+}
+#wrapcentre {
+    background: 0;
+}
+.searchbar {
+    color: orange;
+}
+.tablebg {
+    background: rgba(0, 0, 0, .5);
+        border-top-left-radius: 4em;
+        border-bottom-left-radius: 4em;
+    margin-left: 2%;
+    width: 98%
+}
+.row1 {
+    border-bottom: 1px dotted #333;
+}
+.row2 {
+    /* background: rgba(50, 50, 50, .3);*/
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+}
+.breadcrumbs {
+    margin-left: 50px;
+}
+.datetime {
+    display: none;
+}
+select, input {
+    background: #222;
+    color: #AAA;
+    border: 0;
+    padding: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
+.quotetitle, .attachtitle {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    margin: 10px 5px 0 5px;
+    padding: 4px;
+    border-width: 0px 1px 0 1px;
+    border-style: none;
+    border-color: #000000;
+    color: #DDDDDD;
+        background-color: rgba(50, 50, 50, .4);
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.quotetitle .quotetitle {
+    font-size: 1em;
+}
+
+.quotecontent, .attachcontent {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    padding: 5px;
+    border-color: #000000;
+    border-width: 0 1px 1px 1px;
+    border-style: none;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: "Lucida Grande", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    background-color: rgba(38, 38, 38, .4);
+    color: #DDDDDD;
+}
